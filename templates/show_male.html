@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+    <meta charset = "utf-8"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href=font.html />
+		<title>Male</title>
+    <script src="https://kit.fontawesome.com/ebbecbd361.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style_show_m1.css" />
+  </head>
+	<body>
+    <i class="fas fa-tshirt fa-2x"></i>
+    <div class="head">
+     <h1>Hi Boys!</h1></br>
+    </div>
+    <div class="pp">
+    <p>Please key in your information first:</p>
+    </div>
+    <form action="{{ url_for('show_male') }}" method ="post">
+      <div class="school">
+       <label for="school">School:</label>
+       <input type="text" name="school" placeholder="enter your school" required/>
+      </div> 
+      <br/>
+      <div class="level">
+       <label for="level">Level: </label>
+       <select id="level" name="level">
+         <option value="Primary 1"/>Primary 1
+         <option value="Primary 2"/>Primary 2
+         <option value="primary 3"/>Primary 3
+         <option value="primary 4"/>Primary 4
+         <option value="primary 5"/>Primary 5
+         <option value="primary 6"/>Primary 6 
+         <option value="Secondary/Year 1"/>Secondary/Year 1
+         <option value="Secondary/Year 2"/>Secondary/Year 2
+         <option value="Secondary/Year 3"/>Seocndary/Year 3
+         <option value="Secondary/Year 4"/>Secondary/Year 4
+         <option value="Junior College 1/Year 5"/>Junior College1/Year 5
+         <option value="Junior College 2/Year 6"/>Junior College 2/Year 6
+       </select>
+      </div>
+      <br/>
+      <div class="name">
+       <label for="name">Name:</label>
+       <input type="text" name="name" placeholder="enter your name" required/>
+      </div>
+      <br/>
+      <div class="Class">
+       <label for="Class">Class:&nbsp &nbsp </label>
+       <input type="text" name="Class" placeholder="enter your Class" required/>
+      </div>
+      <br/>
+      <div class="phone">
+       <label for="phone">Phone number:</label>
+       <input type="text" name="phone" placeholder="enter your phone number" required/>
+      </div>
+      </br></br>
+      <div class="submit">
+       <input type="submit" value="submit" /></br></br>
+      </div>
+    </form>
+    
+     <hr />
+    {{ message }}
+    {{ school }}<br/>
+    {{ level }}<br />
+    {{ name }}<br />
+    {{ Class }}<br /> 
+    {{ phone }}<br />>   
+
+    {% for line in lines %}
+    <p>{{ line }}</p>
+    {% endfor %}
+	</body>
+</html>

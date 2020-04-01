@@ -1,0 +1,105 @@
+body{
+  background: AliceBlue; 
+}
+
+.head5{
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}
+
+.sub-head{
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}
+
+.point1{
+  margin-left:80px;
+  font-size: 30px;
+  font-family: 'Sen', sans-serif;
+}
+
+mark{
+  background-color: yellow;
+}
+.content1{
+  margin-left:80px;
+  font-size: 25px;
+  font-family: 'Sen', sans-serif;
+}
+
+.point2{
+  margin-left:80px;
+  font-size: 30px;
+  font-family: 'Sen', sans-serif;
+}
+
+.content2{
+  margin-left:80px;
+  font-size: 25px;
+  font-family: 'Sen', sans-serif;
+}
+
+.point3{
+  margin-left:80px;
+  font-size: 30px;
+  font-family: 'Sen', sans-serif;
+}
+
+.content3{
+  margin-left:80px;
+  font-size: 25px;
+  font-family: 'Sen', sans-serif;
+}
+
+mark1{
+  background-color:aqua;
+}
+.point4{
+  margin-left:80px;
+  font-size: 30px;
+  font-family: 'Sen', sans-serif;
+}
+
+.content4{
+  margin-left:80px;
+  font-size: 25px;
+  font-family: 'Sen', sans-serif;
+}
+
+.point5{
+  margin-left:80px;
+  font-size: 30px;
+  font-family: 'Sen', sans-serif;
+}
+
+.content5{
+  margin-left:80px;
+  font-size: 25px;
+  font-family: 'Sen', sans-serif;
+}
+
+.point6{
+  margin-left:80px;
+  font-size: 30px;
+  font-family: 'Sen', sans-serif;
+}
+
+.content6{
+  margin-left:80px;
+  font-size: 25px;
+  font-family: 'Sen', sans-serif;
+}
+
+.final{
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}
+
+.button{
+  margin-left:80px;
+  font-size: 25px;
+  font-family: 'Sen', sans-serif;
+}

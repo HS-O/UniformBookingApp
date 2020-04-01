@@ -1,0 +1,153 @@
+body{
+  background: AliceBlue;
+}
+
+.head2{
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}
+
+.alignleft{
+  float:left;
+  margin-left: 60px;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}
+
+.alignright{
+  float:right;
+  margin-right: 360px;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}
+
+.align_left{
+  float:left;
+  margin-top: 135px;
+  margin-left:-210px;
+}
+
+.align_right{
+  float:right;
+  margin-top:40px;
+  margin-right:60px;
+}
+
+.leftalign{
+  float:left;
+  margin-left: -500px;
+  margin-top: 550px;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}
+
+.rightalign{
+  float:right;
+  margin-right: 235px;
+  margin-top: 10px;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}
+
+.left_align{
+  float:left;
+  margin-left: -500px;
+  margin-top: 60px;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}
+
+.right_align{
+  float:right;
+  margin-right: -200px;
+  margin-top: 60px;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}
+
+.leftalign1{
+  float:left;
+  margin-left: -500px;
+  margin-top: 200px;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}
+
+.rightalign1{
+  float:right;
+  margin-right: -270px;
+  margin-top: 200px;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}
+
+.left_align1{
+  float:left;
+  margin-top: 300px;
+  margin-left:-500px;
+}
+
+.right_align1{
+  float:right;
+  margin-top:300px;
+  margin-right:-505px;
+}
+
+
+.alignleft1{
+  float:left;
+  margin-top: 800px;
+  margin-left:-500px;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}
+
+.alignright1{
+  float:right;
+  margin-top:800px;
+  margin-right:-340px;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}
+
+.align_left1{
+  float:left;
+  margin-top: 850px;
+  margin-left:-500px;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}
+
+.align_right1{
+  float:right;
+  margin-top:850px;
+  margin-right:-200px;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}
+
+.submit{
+  float:left;
+  margin-top: 900px;
+  margin-left:-500px;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}
+
+.total{
+  float:left;
+  margin-top: 950px;
+  margin-left:-500px;
+  font-size: 30px;
+  font-family: 'Sen', sans-serif;
+}
+
+
+.aa1{
+  float:left;
+  margin-top: 1050px;
+  margin-left:-500px;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}

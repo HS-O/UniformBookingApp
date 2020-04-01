@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+    <meta charset = "utf-8"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href=font.html />
+		<title>Final</title>
+    <script src="https://kit.fontawesome.com/ebbecbd361.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style_finale.css" />
+	</head>
+  <body>
+    <i class="fas fa-tshirt fa-2x"></i>
+    <div class="head4">
+     <h1>Finally!</h1>
+    </div>
+    </br>
+    <div class="pp4">
+     <p1>Hi friends, we are at the <mark2>final step</mark2> of school uniform booking.</p1>
+    </div>
+    </br>
+    <div class="pp5">
+     <p2>For those who choose<span style="color:tomato"> online payment </span>, you are done. Just wait the phone call and you can get your school uniform!</p2>
+    </div>
+    </br>
+    <div class="pp6">
+     <p3>For those who need to <span style="color:tomato"> pay cash </span> , please bring your money to <span style="color:MediumOrchid">the bookshop</span> and collect your uniform once you get the phone call</p3>
+    </div>
+    </br></br></br>
+    <div class="pp7">
+     <p4>Good Luck!!</p4>
+    </div>
+    <div class="center">
+      <img src="/static/IMG_0625.jpg" style="width:400px; height:400px">
+    </div>
+    <form action="{{ url_for('final') }}" method ='post'>
+     <div class="back">
+      <input type="submit" name="submit" value="Back to home page"/>
+     </div>
+    </form>
+  </body>
+</html>

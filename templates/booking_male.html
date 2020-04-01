@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+    <meta charset = "utf-8"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href=font.html />
+		<title>Male Uniform</title>
+    <script src="https://kit.fontawesome.com/ebbecbd361.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/booking_m5.css" />
+  </head>
+  <body>
+    <i class="fas fa-tshirt fa-2x"></i>
+    <div class="head3">
+     <h1>Second Step: Choose your uniform</h1>
+    </div>
+    </br>
+    
+    <div class="textbook2">
+      <p class="alignleft2">Blouse ($9.0):</p>
+      <p class="alignright2">Pants ($9.0):</p>
+    </div>
+    </br>
+   
+    <div class="img3">
+      <div class="align_left2">
+       <img src="/static/casey-lee-awj7sRviVXo-unsplash.jpg" alt="shortshirt" style="width:500px;height:500px">
+      </div>
+      <div class="align_right2">
+       <img src="/static/casey-lee-awj7sRviVXo-unsplash.jpg" alt="shortshort" style="width:500px;height:500px">
+      </div>
+    </div>
+    </br>
+    
+    <form action="{{ url_for('booking_male') }}" method ="post">
+      
+      <div class="SIZE2">
+        <div class="leftalign2">
+         <input type="radio" id="XS" name="size4" value="XS">
+         <label for="XS">XS</label>
+      
+         <input type="radio" id="S" name="size4" value="S">
+         <label for="S">S</label>
+     
+         <input type="radio" id="M" name="size4" value="M"">
+         <label for="M">M</label>
+
+         <input type="radio" id="L" name="size4" value="L">
+         <label for="L">L</label>
+
+         <input type="radio" id="XL" name="size4" value="XL">
+         <label for="XL">XL</label>
+        </div>
+        <div class="rightalign2">
+         <input type="radio" id="XS" name="size5" value="XS">
+         <label for="XS">XS</label>
+  
+         <input type="radio" id="S" name="size5" value="S">
+         <label for="S">S</label>
+
+         <input type="radio" id="M" name="size5" value="M"">
+         <label for="M">M</label>
+
+         <input type="radio" id="L" name="size5" value="L">
+         <label for="L">L</label>
+
+         <input type="radio" id="XL" name="size5" value="XL">
+         <label for="XL">XL</label>
+        </div>
+      </div>
+      </br>
+      <div class="QUANTITY2">
+        <div class="left_align2">
+         <label for="quantity">Quantity:</label>
+         <input type="number" id="quantity_1" name="quantity_1" min="0" max="6" value="0"> 
+        </div>
+        <div class="right_align2">
+         <label for="quantity">Quantity:</label>
+         <input type="number" id="quantity_2" name="quantity_2" min="0" max="6" value="0"> 
+        </div>
+      </div>
+      </br></br>
+      <div class="textbox3">
+       <p class="leftalign3"> PE T-shirt ($9.0): </p>
+       <p class="rightalign3"> PE Shorts ($9.0): </p>
+      </div>
+      </br>
+      <div class="img4">
+        <div class="left_align3">
+         <img src="/static/casey-lee-awj7sRviVXo-unsplash.jpg" alt="blouse" style="width:500px;height:500px">
+        </div>
+        <div class="right_align3">
+         <img src="/static/casey-lee-awj7sRviVXo-unsplash.jpg" alt="pants" style="width:500px;height:500px">
+        </div>
+      </div>
+      </br></br>
+      <div class="SIZE4">
+        <div class="alignleft3">
+         <input type="radio" id="XS" name="size6" value="XS">
+         <label for="XS">XS</label>
+
+         <input type="radio" id="S" name="size6" value="S">
+         <label for="S">S</label>
+
+         <input type="radio" id="M" name="size6" value="M"">
+         <label for="M">M</label>
+
+         <input type="radio" id="L" name="size6" value="L">
+         <label for="L">L</label>
+
+         <input type="radio" id="XL" name="size6" value="XL">
+         <label for="XL">XL</label>
+        </div>
+        <div class="alignright3">
+         <input type="radio" id="XS" name="size7" value="XS">
+         <label for="XS">XS</label>
+
+         <input type="radio" id="S" name="size7" value="S">
+         <label for="S">S</label>
+
+         <input type="radio" id="M" name="size7" value="M"">
+         <label for="M">M</label>
+
+         <input type="radio" id="L" name="size7" value="L">
+         <label for="L">L</label>
+ 
+         <input type="radio" id="XL" name="size7" value="XL">
+         <label for="XL">XL</label>
+        </div>
+      </div>
+      </br></br>
+
+      <div class="QUANTITY4">
+        <div class="align_left3">
+         <label for="quantity">Quantity:</label>
+         <input type="number" id="quantity_3" name="quantity_3" min="0" max="6" value="0"> 
+        </div>
+        <div class="align_right3">
+         <label for="quantity">Quantity:</label>
+         <input type="number" id="quantity_4" name="quantity_4" min="0" max="6" value="0" >
+        </div>
+      </div>
+
+      </br></br>
+
+      <div class="submit1">
+       <input type="submit" name="submit" value="Confirmed"/>
+      </div>
+
+      </br>
+
+      <div class="total1">
+       <p> Total amount($): {{total_amt}}</p>
+      </div>
+
+      </br>
+
+      <div class="aa2">
+       <a href="{{ url_for('payment') }}"> ----> Next Step</a>
+      </div>
+
+    </form>
+  </body>
+</html>      

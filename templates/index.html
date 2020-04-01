@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+    <meta charset = "utf-8"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href=font.html />
+		<title>Uniform Booking</title>
+    <script src="https://kit.fontawesome.com/ebbecbd361.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style_index5.css" />
+    
+	</head>
+	<body>
+    <a href = "{{ url_for('easter_egg') }}"><i class="fas fa-tshirt fa-2x"></i></a>
+  
+    <h1>Uniform Booking</h1></br>
+    <div class="p1">
+     <p1>Hi friends! Are you ready for a new school term? Let's put on new uniform and work hard!</p1>
+    </div>
+    <div class="p2">
+     <p2>You are : </p2>
+    </div>
+    <div class="a">
+      <a href="{{ url_for('show_male') }}">Male</a>
+      <br/>
+      <a href="{{ url_for('show_female') }}">Female</a>
+    </div>
+	</body>
+</html>

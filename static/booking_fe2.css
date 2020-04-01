@@ -1,0 +1,115 @@
+body{
+  background: AliceBlue;
+}
+
+.head2{
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}
+
+.pp2{
+  float: left;
+  width: 100px;
+  height: 20px;
+  margin: 60px;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}
+
+.pp2_1{
+  float: right;
+  width: 100px;
+  height: 20px;
+  margin: 60px;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}
+
+.img{
+  margin-left: 60px;
+}
+
+.img{
+  margin-right: 60ppx;
+}
+
+.size{
+  margin-left: 60px;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}
+
+.size1{
+  margin-right: 60px;
+  font-size: 20px;
+  font-family: 'Sen', sans-serif; 
+}
+
+.quantity{
+  margin-right: 60px;
+  font-size: 20px;
+  font-family: 'Sen', sans-serif; 
+}
+
+.quantity1{
+  margin-right: 60px;
+  font-size: 20px;
+  font-family: 'Sen', sans-serif; 
+}
+
+.pp2_2{
+  margin-left: 60px;
+  font-size: 20px;
+  font-family: 'Sen', sans-serif;
+}
+
+.pp2_3{
+  margin-left: 60px;
+  font-size: 20px;
+  font-family: 'Sen', sans-serif;
+}
+
+.img2{
+  margin-left: 60px;
+}
+
+.img3{
+  margin-left: 60px;
+}
+
+.size2{
+  margin-left: 60px;
+  font-size: 20px;
+  font-family: 'Sen', sans-serif;
+}
+
+.size3{
+  margin-left: 60px;
+  font-size: 20px;
+  font-family: 'Sen', sans-serif;
+}
+
+.quantity2{
+  margin-left: 60px;
+  font-size: 20px;
+  font-family: 'Sen', sans-serif;
+}
+
+.quantity3{
+  margin-left: 60px;
+  font-size: 20px;
+  font-family: 'Sen', sans-serif;
+}
+
+.pp2_3{
+  margin-left: 60px;
+  font-size: 20px;
+  font-family: 'Sen', sans-serif;
+}
+
+.aa1{
+  margin-left: 60px;
+  font-size: 20px;
+  font-family: 'Sen', sans-serif;
+}

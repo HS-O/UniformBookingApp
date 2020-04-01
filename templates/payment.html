@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+    <meta charset = "utf-8"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href=font.html />
+		<title>Payment</title>
+    <script src="https://kit.fontawesome.com/ebbecbd361.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style_payment.css" />
+  </head>
+  <body>
+    <i class="fas fa-tshirt fa-2x"></i>
+    <div class="head3">
+     <h1>Third Step: Choose Your Payment Type</h1>
+    </div>
+    </br></br>
+    <div class="pp3">
+     <p>Are you paying by:</p>
+    </div>
+    <form action="{{ url_for('payment') }}" method = "post">
+     <div class="aa3">
+       <a href="https://www.visa.com.sg/pay-with-visa/visa-checkout.html">via Visa card </a>
+     </div>
+     </br>
+     <div class="aa4">
+       <a href="https://www.mastercard.us/en-us.html">via Master Card</a>
+     </div>
+     <div class="line">
+       <p>Cash Payment:</p>
+     </div>
+     <div class="line1">
+       <p>Please remember to bring your money to bookshop on the next day of reservation </p>
+     </div>
+     <div class="aa5">
+      <input type="submit" value="Confirmed"/>
+     </div>
+    </form>
+  </body>
+</html>

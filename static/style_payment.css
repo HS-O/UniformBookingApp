@@ -1,0 +1,51 @@
+body{
+  background: AliceBlue; 
+}
+
+.head3{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Sen', sans-serif;
+}
+
+.pp3{
+  margin-left: 60px;
+  font-size: 25px;
+  font-family: 'Sen', sans-serif;
+}
+
+.aa3{
+  margin-left: 80px;
+  line-height: 40px;
+  font-size: 20px;
+  font-family: 'Sen', sans-serif;
+}
+
+.aa4{
+  margin-left: 80px;
+  line-height: 40px;
+  font-size: 20px;
+  font-family: 'Sen', sans-serif;
+}
+
+.line{
+  margin-left: 60px;
+  line-height: 40px;
+  font-size: 20px;
+  font-family: 'Sen', sans-serif;
+}
+
+.line1{
+  margin-left: 80px;
+  line-height: 40px;
+  font-size: 20px;
+  font-family: 'Sen', sans-serif;
+}
+
+
+.aa5{
+  margin-left: 60px;
+  line-height: 40px;
+  font-size: 20px;
+  font-family: 'Sen', sans-serif;
+}

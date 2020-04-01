@@ -1,0 +1,58 @@
+body{
+  background: AliceBlue; 
+}
+
+.head{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Sen', sans-serif;
+}
+
+.pp{
+  margin-left: 60px;
+  font-size: 25px;
+  font-family: 'Sen', sans-serif;
+}
+
+.school{
+  margin-left: 60px;
+  line-height: 40px;
+  font-size: 20px;
+  font-family: 'Sen', sans-serif;
+}
+
+.level{
+  margin-left: 60px;
+  line-height: 40px;
+  font-size: 20px;
+  font-family: 'Sen', sans-serif;
+}
+
+.name{
+  margin-left: 60px;
+  line-height: 40px;
+  font-size: 20px;
+  font-family: 'Sen', sans-serif;
+}
+
+.Class{
+  margin-left: 60px;
+  line-height: 40px;
+  font-size: 20px;
+  font-family: 'Sen', sans-serif;
+}
+
+.phone{
+  margin-left: 60px;
+  line-height: 40px;
+  font-size: 20px;
+  font-family: 'Sen', sans-serif;
+}
+
+.submit{
+  margin-left: 60px;
+  line-height: 40px;
+  font-size: 20px;
+  font-family: 'Sen', sans-serif;
+}
+

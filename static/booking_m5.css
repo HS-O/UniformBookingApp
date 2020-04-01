@@ -1,0 +1,153 @@
+body{
+  background: AliceBlue;
+}
+
+.head3{
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}
+
+.alignleft2{
+  float:left;
+  margin-left: 60px;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}
+
+.alignright2{
+  float:right;
+  margin-right: 360px;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}
+
+.align_left2{
+  float:left;
+  margin-top: 135px;
+  margin-left:-210px;
+}
+
+.align_right2{
+  float:right;
+  margin-top:40px;
+  margin-right:60px;
+}
+
+.leftalign2{
+  float:left;
+  margin-left: -500px;
+  margin-top: 550px;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}
+
+.rightalign2{
+  float:right;
+  margin-right: 235px;
+  margin-top: 10px;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}
+
+.left_align2{
+  float:left;
+  margin-left: -500px;
+  margin-top: 60px;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}
+
+.right_align2{
+  float:right;
+  margin-right: -200px;
+  margin-top: 60px;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}
+
+.leftalign3{
+  float:left;
+  margin-left: -500px;
+  margin-top: 200px;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}
+
+.rightalign3{
+  float:right;
+  margin-right: -270px;
+  margin-top: 200px;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}
+
+.left_align3{
+  float:left;
+  margin-top: 300px;
+  margin-left:-500px;
+}
+
+.right_align3{
+  float:right;
+  margin-top:300px;
+  margin-right:-505px;
+}
+
+
+.alignleft3{
+  float:left;
+  margin-top: 800px;
+  margin-left:-500px;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}
+
+.alignright3{
+  float:right;
+  margin-top:800px;
+  margin-right:-340px;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}
+
+.align_left3{
+  float:left;
+  margin-top: 850px;
+  margin-left:-500px;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}
+
+.align_right3{
+  float:right;
+  margin-top:850px;
+  margin-right:-200px;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}
+
+.submit1{
+  float:left;
+  margin-top: 900px;
+  margin-left:-500px;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}
+
+.total1{
+  float:left;
+  margin-top: 950px;
+  margin-left:-500px;
+  font-size: 30px;
+  font-family: 'Sen', sans-serif;
+}
+
+
+.aa2{
+  float:left;
+  margin-top: 1050px;
+  margin-left:-500px;
+  font-size: 35px;
+  font-family: 'Sen', sans-serif;
+}
